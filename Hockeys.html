@@ -1,98 +1,149 @@
 <!DOCTYPE html>
 <html data-theme="cupcake" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockeys</title>
-    <!-- telwind and daisyui -->   
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">  
-    <!-- telwind custom color -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
-    <!-- css -->
-    <style>
-    .font-manrope {
-        font-family: "Manrope", sans-serif;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockeys</title>
+  <!-- telwind and daisyui -->
 
-         }
-         p{ 
-            color: rgba(19, 19, 24, 0.60);
-            font-size: 16px;
-         }
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    </style>
 
-</head >
+</head>
+
 <body class="font-manrope">
-    <header class="container mx-auto">
-        <div class="flex justify-center ">
-            <img src="Images/1.png" alt="header-bg">
-            
+  <header class="container mx-auto">
+    <div class="flex justify-center ">
+      <img src="Images/1.png" alt="header-bg">
+
+    </div>
+
+  </header>
+
+  <main class="container mx-auto">
+    <section class="text-center">
+      <div class="  my-20 border-x border-x-0 border-dashed border-2">
+        <h2 class="text-5xl font-extrabold my-8">Professional Hockeys Club</h2>
+        <p class="my-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna
+          in sit nullam proin. </p>
+      </div>
+      <!-- progress section -->
+      <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 my-20 ">
+        <div>
+          <div class="radial-progress text-error my-5" style="--value:87; --size:7.5rem; --thickness: 10px;"
+            role="progressbar">87%</div>
+          <h3 class="text-xl font-bold my-4">Prayer Facility</h3>
+          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
         </div>
 
-    </header>
-
-    <main class="container mx-auto">
-        <section class="text-center">
-            <div class="  my-20 border-x border-x-0 border-dashed border-2">
-                <h2 class="text-5xl font-extrabold my-8">Professional Hockeys Club</h2>
-                <p class="my-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <div>
+          <div class="radial-progress text-success my-5" style="--value:95; --size:7.5rem; --thickness: 10px;"
+            role="progressbar">95%</div>
+          <h3 class="text-xl font-bold my-4">Experienced Coach</h3>
+          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div>
+          <div class="radial-progress text-warning my-5" style="--value:90; --size:7.5rem; --thickness: 10px;"
+            role="progressbar">90%</div>
+          <h3 class="text-xl font-bold my-4">Senior Player</h3>
+          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+        <div>
+          <div class="radial-progress text-info my-5" style="--value:80; --size:7.5rem; --thickness: 10px;"
+            role="progressbar">80%</div>
+          <h3 class="text-xl font-bold my-4">Training Ground</h3>
+          <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+        </div>
+      </div>
+    </section>
+    <!-- program section -->
+    <section class="text-center">
+      <div>
+        <div class="  my-20 border-x border-x-0 border-dashed border-2">
+          <h2 class="text-5xl font-extrabold my-8">Program Sections</h2>
+          <p class="my-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+            urna in sit nullam proin. </p>
+        </div>
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 justify-start ">
+          <!-- card 1 -->
+          <div class="card w-full overflow-hidden ">
+            <figure>
+              <img class="w-full" src="Images/2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body absolute z-20 h-full ">
+              <h2 class="card-title text-3xl text-white font-extrabold ">Junior Program</h2>
+              <p class="text-white font-medium justify-end ">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                Elit elit
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <div class="card-actions justify-left item">
+                <button
+                  class="btn rounded-lg bg-[#FF4240] hover:bg-[#FF4240] hover:border-transparent text-white font-bold border-transparent text-xl">Register
+                  Now</button>
+              </div>
             </div>
-            <!-- progress section -->
-            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 my-20 ">
-                <div>
-                    <div class="radial-progress text-error my-5" style="--value:87; --size:7.5rem; --thickness: 10px;" role="progressbar">87%</div>
-                    <h3 class="text-xl font-bold my-4">Prayer Facility</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            <div class="absolute w-full h-full bg-[#13131880] z-10"></div>
+          </div>
+          <!-- card 2 -->
+          <div class="card w-full">
+            <div class="card w-full overflow-hidden ">
+              <figure>
+                <img class="w-full" src="Images/3.png" alt="Shoes" />
+              </figure>
+              <div class="card-body absolute z-20 h-full ">
+                <h2 class="card-title text-3xl text-white font-extrabold ">Junior Program</h2>
+                <p class="text-white font-medium justify-end ">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                  Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et
+                  in.</p>
+                <div class="card-actions justify-left item">
+                  <button
+                    class="btn rounded-lg bg-[#FF4240] hover:bg-[#FF4240] hover:border-transparent text-white font-bold border-transparent text-xl">Register
+                    Now</button>
                 </div>
-
-                <div>
-                    <div class="radial-progress text-success my-5" style="--value:95; --size:7.5rem; --thickness: 10px;" role="progressbar">95%</div>
-                    <h3 class="text-xl font-bold my-4">Experienced Coach</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
-                </div>
-                <div>
-                    <div class="radial-progress text-warning my-5" style="--value:90; --size:7.5rem; --thickness: 10px;" role="progressbar">90%</div>
-                    <h3 class="text-xl font-bold my-4">Senior Player</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
-                </div>
-                <div>
-                    <div class="radial-progress text-info my-5" style="--value:80; --size:7.5rem; --thickness: 10px;" role="progressbar">80%</div>
-                    <h3 class="text-xl font-bold my-4">Training Ground</h3>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
-                </div>
+              </div>
+              <div class="absolute w-full h-full bg-[#13131880] z-10"></div>
             </div>
-        </section>
-        <!-- program section -->
-        <section class="text-center">
-            <div>
-                <div class="  my-20 border-x border-x-0 border-dashed border-2">
-                    <h2 class="text-5xl font-extrabold my-8">Program Sections</h2>
-                    <p class="my-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.  </p>
+            <!-- card 3 -->
+            <div class="col-span-2">
+              <div class="card w-full overflow-hidden ">
+                <figure>
+                  <img class="w-full" src="Images/4.png" alt="Shoes" />
+                </figure>
+                <div class="card-body absolute z-20 h-full ">
+                  <h2 class="card-title text-3xl text-white font-extrabold ">Junior Program</h2>
+                  <p class="text-white font-medium justify-end ">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                    Elit elit
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et
+                    in.</p>
+                  <div class="card-actions justify-left item">
+                    <button
+                      class="btn rounded-lg bg-[#FF4240] hover:bg-[#FF4240] hover:border-transparent text-white font-bold border-transparent text-xl">Register Now</button>
+                  </div>
                 </div>
+                <div class="absolute w-full h-full bg-[#13131880] z-10"></div>
+              </div>
             </div>
-        </section>
-    </main>
+          </div>
 
-    <footer>
+        </div>
+      </div>
+    </section>
 
-    </footer>
-    
-    
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+
 </body>
+
 </html>
